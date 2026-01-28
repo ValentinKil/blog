@@ -441,30 +441,21 @@ a:visited { color: #205caa; }
 
 /* Add this to your CSS */
 
-/* Centering Container */
 .social-links-centered {
   display: flex;
-  justify-content: center; /* Horizontal center */
-  align-items: center;     /* Vertical center */
-  gap: 25px;               /* Space between icons */
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Space between icons */
   padding: 20px 0;
 }
 
-/* Make SVGs larger and Grey */
 .social-links-centered svg {
-  width: 32px;
+  width: 32px;  /* Control size here */
   height: 32px;
-  fill: #828282;           /* Forces the grey color */
-  transition: fill 0.3s ease;
+  fill: #828282; /* This makes them grey */
+  transition: fill 0.2s ease;
 }
 
-/* Ensure the link doesn't force a blue color or underline */
-.social-links-centered a {
-  text-decoration: none;
-  display: flex;
-}
-
-/* Hover effect: turns dark or blue when you mouse over */
 .social-links-centered a:hover svg {
-  fill: #2a7ae2; 
+  fill: #2a7ae2; /* Blue on hover */
 }
