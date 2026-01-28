@@ -438,3 +438,25 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+/* Add this to your CSS */
+
+.social-links {
+  display: flex;
+  gap: 20px;       /* Spacing between icons */
+  padding: 10px 0;
+}
+
+.social-links a {
+  color: #828282;  /* Matches your other footer text color */
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #2a7ae2;  /* Turns blue on hover */
+  text-decoration: none;
+}
+
+.social-links i {
+  font-size: 24px; /* Adjust size of icons here */
+}
