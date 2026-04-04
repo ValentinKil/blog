@@ -6,7 +6,7 @@ permalink: /Randomwalk/
 excerpt : "A proof that a drunk man will find his way home, but a drunk bird may get lost forever"
 ---
 
-*The complete article will be published in the next issue of the Invariant, the magazine of the [Oxford student's mathematics society](https://www.invariants.org.uk).*
+*The complete article has been published in the 2025 issue of the Invariant, the magazine of the [Oxford student's mathematics society](https://www.invariants.org.uk).*
 
 <img src="../images/drinktardi.jpeg">
 
